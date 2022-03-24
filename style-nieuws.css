@@ -1,0 +1,214 @@
+                           /*Het sportbedrijf Rheden logo*/
+img.logo {
+	width: 100px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	filter: grayscale(100%);
+}
+
+                           /*Navigatiebalk*/
+
+.bovenbalk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+
+}
+
+.container nav {
+	height: 20px;
+	line-height: 150px;
+}
+
+.container nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  text-align: right;
+}
+
+li {
+  float: left;
+  font-weight: 800px;
+}
+
+li a {
+  display: flex;
+  margin-right: 0;
+  color: #666;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #A9A9A9;
+  font-weight: 800px;
+}
+
+li a.active {
+  color: #1E9CCF;
+}
+
+
+
+
+.container {
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 500px;
+  margin-bottom: 50px;
+}
+
+
+                                /*Achtergrond image*/
+body {
+	background-image: url('bal.png');
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top -140px right -110px;
+	margin: 0;
+}
+
+.nieuws {
+  display:flex ;
+  margin-bottom: 20px;
+}
+
+.nieuws:last-child {
+	margin-bottom: 0;
+}
+
+.textbox1 {
+	display: inline-block;
+	border-radius: 6px;
+	background-color: #EEEEEE;
+	width: 320px;
+	height: 390px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 3px 15px 0 rgba(0,0,0,0.19);
+	margin-right: 30px;
+}
+
+.textbox1:last-child {
+	margin-right: 0;
+}
+
+.fotobox1 {
+	border-radius: 6px;
+	background-color: #DFDFDF;
+	width: 320px;
+	height: 180px;
+}
+
+.datum {
+	color: #CECECE;
+	padding-left: 20px;
+}
+
+.nieuwstitel {
+	padding-left: 20px;
+}
+
+.nieuwstext {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+}
+
+.button {
+	padding-left: 20px;
+	border: none;
+	font-weight: 600;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.leesmeer {
+
+}
+
+.leesmeer:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: #1A66A6;
+	width: 100%;
+	height: 290px;
+  left: 0;
+  right: 0;
+}
+
+.eindstuk {
+	background-color: #BFE1FF;
+	width: 100%;
+	height: 250px;
+  column-count: 5;
+}
+
+img.logoonder {
+	width: 100px;
+	padding-top: 60px;
+	padding-left: 70px;
+  padding-bottom: 50px;
+  filter: grayscale(100%);
+}
+
+.onderlocatie {
+  padding-left: 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 320px;
+  height: 145px;
+}
+
+.zoeken {
+  width: 100px;
+  height: 110px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.contact {
+  height: 160;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+
+.zoekbalk {
+  padding-top: 140px;
+}
+
+.logotjes {
+  padding-left: 40px;
+  padding-top: 15px;
+  height: 0;
+}
+
+.gemeente {
+  padding-top: 70px;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #008CBA;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.trademarktext {
+	padding-left: 600px;
+	color: #ECECEC;
+}
